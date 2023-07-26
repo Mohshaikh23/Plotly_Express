@@ -113,17 +113,6 @@ def show_Violinplot():
     fig = go.Figure(go.Violin(y=data))
     st.plotly_chart(fig)
     
-def show_Violinplot():
-    # Sample data
-    x = np.linspace(-5, 5, 100)
-    y = np.linspace(-5, 5, 100)
-    X, Y = np.meshgrid(x, y)
-    Z = np.sin(np.sqrt(X**2 + Y**2))
-
-    # Create the 3D Surface Plot
-    fig = go.Figure(go.Surface(z=Z))
-    st.plotly_chart(fig)
-    
 def show_3DSurfaceplot():
     # Sample data
     x = np.linspace(-5, 5, 100)
